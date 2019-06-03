@@ -52,7 +52,7 @@ public class StudentServiceUnitTest {
 	
 	@Test
 	public void testObjectFetch() {
-		Student student=this.service.getStudent(2);
+		Student student=this.service.getStudent(6);
 		assertNotNull(student);
 	}
 	
